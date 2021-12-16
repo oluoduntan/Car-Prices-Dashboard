@@ -201,7 +201,7 @@ app.layout = html.Div([
 
 ], style={'background-color': '#0d0d0d'})
 
-
+server = app.server
 # ------------------------------------------------------------------------------
 # Connect the Plotly graphs with Dash Components
 @app.callback(
