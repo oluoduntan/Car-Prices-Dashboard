@@ -38,9 +38,7 @@ app.layout = html.Div([
                           for i in sorted(df.year.unique())],
                  multi=False,
                  value=2015,
-                 style={'width': "40%", 'background-color': 'green', 'color': 'white',
-                        'display': 'inline-block', 'verticalAlign': 'middle'},
-                 searchable=True
+                 style={'width': "40%", 'display': 'inline-block', 'padding': '0px 10px'}
                  ),
 
     html.Div(id='output_container', children=[], style={'color':'white', 'font-family': 'Times New Roman'}),
